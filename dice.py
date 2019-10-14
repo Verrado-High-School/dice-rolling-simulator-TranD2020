@@ -15,6 +15,7 @@ numFour = 0
 numFive = 0
 numSix = 0
 
+
 def printNum():
 	print("1s - " + str(numOne))
 	print("2s - " + str(numTwo))
@@ -22,7 +23,6 @@ def printNum():
 	print("4s - " + str(numFour))
 	print("5s - " + str(numFive))
 	print("6s - " + str(numSix))
-
 def printPercent():
 	print("1s - " + str(numOne / 100) + "%")
 	print("2s - " + str(numTwo / 100) + "%")
@@ -51,7 +51,8 @@ while x <= numRolls:
 		numFive += 1
 	elif RandNum == 6:
 		numSix += 1
-		
+
+print("Total Rolls: " + str(numRolls))
 printNum()
 printPercent()
 	
